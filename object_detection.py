@@ -6,7 +6,7 @@ from ultralytics import YOLO
 import winsound
 
 # Load the custom YOLO model
-custom_model = YOLO('/configs/best.pt')  # Adjust this path
+custom_model = YOLO('./configs/best.pt')  # Adjust this path
 
 # Initialize voice engine using pyttsx3
 engine = pyttsx3.init()
